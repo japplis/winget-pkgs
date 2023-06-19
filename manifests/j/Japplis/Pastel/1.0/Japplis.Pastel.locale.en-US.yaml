@@ -1,0 +1,25 @@
+# Created using Apache Ant script from Japplis
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.4.0.schema.json
+
+PackageIdentifier: Japplis.Pastel
+PackageVersion: 1.0
+PackageLocale: en-US
+Publisher: Japplis
+PublisherUrl: https://www.japplis.com
+PackageName: Japplis Pastel
+PackageUrl: https://www.japplis.com/decoration/pastel
+License: Freeware
+LicenseUrl: https://www.japplis.com/decoration/pastel/license.txt
+Copyright: Copyright © 2011 - 2023 Japplis. All rights reserved.
+ShortDescription: Image editor with multiple predefined effects
+ReleaseNotesUrl: https://www.japplis.com/decoration/pastel/changes.txt
+Tags: 
+- pastel
+- effect
+- image
+- filter
+- photo
+ManifestType: defaultLocale
+ManifestVersion: 1.4.0
+
+
