@@ -1,0 +1,27 @@
+# Created using Apache Ant script from Japplis
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.10.0.schema.json
+
+PackageIdentifier: Japplis.PostOnScreen
+PackageVersion: 1.5
+Platform:
+- Windows.Desktop
+InstallerType: inno
+InstallModes:
+- interactive
+- silent
+- silentWithProgress
+Installers:
+- Architecture: x64
+  Scope: machine
+  InstallerUrl: https://www.japplis.com/post-on-screen/versions/PostOnScreen-1.5.exe
+  InstallerSha256: f2ef8beeb3ec13a1edd053c396bf317d9b48af060ba649df87913560b31a5677
+  InstallerSwitches:
+    Custom: /ALLUSERS
+- Architecture: x64
+  Scope: user
+  InstallerUrl: https://www.japplis.com/post-on-screen/versions/PostOnScreen-1.5.exe
+  InstallerSha256: f2ef8beeb3ec13a1edd053c396bf317d9b48af060ba649df87913560b31a5677
+  InstallerSwitches:
+    Custom: /CURRENTUSER
+ManifestType: installer
+ManifestVersion: 1.10.0
